@@ -15,6 +15,9 @@ public class CasestudyApplication  extends SpringBootServletInitializer  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CasestudyApplication.class, args);
+		System.out.println("Full Name name");
 	}
+
+
 
 }
