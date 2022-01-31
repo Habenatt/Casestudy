@@ -33,7 +33,7 @@ public class RegistrationController {
         System.out.println(form);
 
         for(FieldError error:errors.getFieldErrors()){
-            System.out.println("error message : Email is required   => " +error);
+            System.out.println("error field = " + error.getField() + " message = " + error.getDefaultMessage());
         }
 
         return response;
