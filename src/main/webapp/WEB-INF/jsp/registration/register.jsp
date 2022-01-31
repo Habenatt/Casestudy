@@ -8,6 +8,11 @@
     <input type="text" id="lname" name="lastName" placeholder="Enter your Last name"><br>
     <label for="email" style="width: 14%;"><b>email:</b></label>
     <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+
+    <label for="age" style="width: 14%;"><b>Age:</b></label>
+    <input type="text" id="age" name="age" placeholder="Enter your age"><br>
+
+
     <label for="pass" style="width: 14%;"><b>Password:</b></label>
     <input type="text" id="pass" name="password" placeholder="Enter your Password"><br>
     <label for="Cpass" style="width: 14%;"><b>confirm Password:</b></label>

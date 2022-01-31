@@ -25,6 +25,12 @@ public class RegisterFormBean {
     @Min(value=10, message="LAst Name must have 10 characters minimum!")
     private String lastName;
 
+    @Max(value=3, message="Age must be 3  minimum!")
+    @Min(value=18, message="Age must be 18  maximum!")
+    private String age;
+
+
+
 
     @NotEmpty(message = "Email is required!")
     private String email;
