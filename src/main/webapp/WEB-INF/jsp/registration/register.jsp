@@ -10,7 +10,7 @@
     <input type="text" id="email" name="email" placeholder="Enter your email"><br>
 
     <label for="age" style="width: 14%;"><b>Age:</b></label>
-    <input type="text" id="age" name="age" placeholder="Enter your age"><br>
+    <input type="number" id="age" name="age" placeholder="Enter your age"><br>
 
 
     <label for="pass" style="width: 14%;"><b>Password:</b></label>
