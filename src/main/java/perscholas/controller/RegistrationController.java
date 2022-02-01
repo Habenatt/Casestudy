@@ -31,11 +31,16 @@ public class RegistrationController {
         response.setViewName("registration/register");
 
         System.out.println(form);
-
-        for(FieldError error:errors.getFieldErrors()){
-            System.out.println("error field = " + error.getField() + " message = " + error.getDefaultMessage());
-        }
-
+if(errors.hasErrors()) {
+    for (FieldError error : errors.getFieldErrors()) {
+        form.getErrorMessages().add(error.getDefaultMessage());
+        System.out.println("error field = " + error.getField() + " message = " + error.getDefaultMessage());
+    }
+    response.addObject("formBeanKey", form);
+    response.setViewName("registration/register");
+}else{
+    response.setViewName("redirect:/login");
+}
         return response;
     }
 

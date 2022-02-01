@@ -40,6 +40,8 @@
         <td><a href="/logout"><u>Logout</u></a></td>
         <td> | </td>
         <td><a href="/registration-url-path/register"><u>User Registration</u></a></td>
+        <td> | </td>
+        <td><a href="/index"><u>Index</u></a></td>
 
 
     </tr>
